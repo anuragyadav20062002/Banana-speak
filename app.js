@@ -3,6 +3,9 @@ var textInput = document.querySelector("#input");
 
 console.log(input);
 
-var btnTranslate = addEventListener("click", function clickEventHandler(){
-console.log("clicked");
-})
+
+function clickEventHandler(){
+    console.log("clicked");
+console.log("input", textInput.value);
+};
+var btnTranslate = addEventListener("click",clickEventHandler)
