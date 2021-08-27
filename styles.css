@@ -1,0 +1,16 @@
+#input{
+    border: 1px solid;
+    width: 80%;
+    height: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    display: block;
+}
+
+#output{
+    border: 1px solid;
+    width: 80%;
+    height: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
