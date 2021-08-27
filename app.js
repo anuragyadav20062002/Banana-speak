@@ -21,7 +21,7 @@ function clickHandler() {
    fetch(translationText(inputText))
    .then(response=>response.json())
    .then(json => {
-      var translatedText = json.contents.translated;
+      var translatedText = json;
       outputText.innerText= translatedText;
    })
    .catch(errorhandler);

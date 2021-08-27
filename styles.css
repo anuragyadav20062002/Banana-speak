@@ -1,16 +1,81 @@
-#input{
-    border: 1px solid;
-    width: 80%;
-    height: 2rem;
-    margin: 1rem;
-    padding: 1rem;
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+body{
+    margin: 0;
+    box-sizing: border-box;
+  font-family: 'Kalam', cursive;
+  text-align: center;
+}
+/*header*/
+
+#header{
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    background-color: #F2C94C;
     display: block;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+#main{
+    margin: auto;
+    padding: 2rem;
+    max-width: 1000px;
+    display: block;
+}
+#input{
+    text-align: start;
+    width: 60%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    margin: auto;
+    border-style: solid ;
+    border-width: 2px;
 }
 
 #output{
-    border: 1px solid;
-    width: 80%;
-    height: 2rem;
-    margin: 1rem;
+    text-align: start;
+    width: 60%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+    margin: auto;
+    border-style: solid ;
+    border-width: 2px;
+}
+
+#btn-translate{
+    display: block;
+margin: auto;  
+    padding: 1rem 2rem;
+    font-size: large;
+    border: none;
+    background-color: #F2C94C;
+    font-family: inherit;
+}
+
+#output-display{
     padding: 1rem;
+}
+
+#footer{
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    bottom: 0;
+    background-color: #F2C94C;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
