@@ -22,7 +22,7 @@ function clickHandler() {
    .then(response=>response.json())
    .then(json => {
       var translatedText = json;
-      outputText.innerText= translatedText;
+      outputText.innerText= translatedText.contents.translated;
    })
    .catch(errorhandler);
 };
